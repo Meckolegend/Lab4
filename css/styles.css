@@ -7,8 +7,9 @@
   line-height: 2em;
   color: white;
   font-weight: bold;
-
-
+}
+.menu-toggle{
+  display: flex;
 }
 body {
   background: #fcc;
