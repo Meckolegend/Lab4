@@ -2,22 +2,45 @@
 
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
-
+.Menu{
+  background-color: darkred;
+  line-height: 2em;
+  color: white;
+  font-weight: bold;
+  font-size: 15;
+}
 body {
   background: #fcc;
-} 
-
-
+}
+nav{
+  flex-direction: column;
+  display: flex;
+}
+a {
+  color: aqua
+}
 
 /* TABLET STYLES */
+
 
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+  nav{
+    flex-direction: row;
+    display: flex;
+    padding-left: 1em;
+
+  }
   body {
     background: #cfc;
-  } 
+  }
+  .Menu{
+    display: none;
+  }
+  a {
+    color: darkorange;
+  }
 }
 
 
@@ -30,5 +53,8 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
+  a {
+    color: white;
+  }
 }
