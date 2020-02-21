@@ -7,8 +7,7 @@
   line-height: 2em;
   color: white;
   font-weight: bold;
-  font-size: 15;
-  display: flex;
+
 
 }
 body {
@@ -16,14 +15,17 @@ body {
 }
 nav{
   flex-direction: column;
-  display: flex;
+  display: none
 }
 a {
   color: aqua
 }
-.menu + nav:hover{
+ /*.Menu:hover + nav,
+nav:hover{
   display: flex;
-}
+}*/
+
+
 
 /* TABLET STYLES */
 
