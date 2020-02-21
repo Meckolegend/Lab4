@@ -8,6 +8,8 @@
   color: white;
   font-weight: bold;
   font-size: 15;
+  display: flex;
+
 }
 body {
   background: #fcc;
@@ -18,6 +20,9 @@ nav{
 }
 a {
   color: aqua
+}
+.menu + nav:hover{
+  display: flex;
 }
 
 /* TABLET STYLES */
@@ -37,6 +42,7 @@ a {
   }
   .Menu{
     display: none;
+
   }
   a {
     color: darkorange;
